@@ -1,0 +1,135 @@
+
+Plot
+
+ 	 
+Number of Timesteps	20
+Current Timestep	0
+Random Seed	0
+Number of years per timestep	1.0
+Plot Length in the X (E-W) Direction, in meters	300.0
+Plot Length in the Y (N-S) Direction, in meters	300.0
+Plot Latitude, in decimal degrees	36.56
+Mean Annual Precipitation, mm	0.0
+Seasonal Precipitation	0.0
+Water Deficit	0.0
+Mean Annual Temperature, degrees C	0.0
+Annual Nitrogen Deposition	0.0
+Plot title	GenPlots
+
+Tree Population
+
+ 	 
+New Seedling Diameter at 10 cm	0.2
+Seedling Height Class 1 Upper Bound, in cm	0.0
+Seedling Height Class 2 Upper Bound, in cm	0.0
+Tree Map To Add As Text	
+ 	ABCO	CADE	PILA	PIPO	QUCH	QUKE	PIJE	PIMO	ABMA	PICO
+Minimum Adult DBH	23.163	15.465	34.225	22.446	7.683	14.775	21.681	16.569	23.188	21.681
+Max Seedling Height (meters)	1.35	1.35	1.35	1.35	1.35	1.35	1.35	1.35	1.35	1.35
+Initial Density (#/ha) - Seedling Height Class 1	null	null	null	null	null	null	null	null	null	null
+Initial Density (#/ha) - Seedling Height Class 2	null	null	null	null	null	null	null	null	null	null
+Initial Density (#/ha) - Seedling Height Class 3	null	null	null	null	null	null	null	null	null	null
+Initial Density (#/ha) - 0-1.0 cm DBH	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Initial Density (#/ha) - 1.0-10.0 cm	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Initial Density (#/ha) - 10.0-20.0 cm	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+
+Allometry
+ 	ABCO	CADE	PILA	PIPO	QUCH	QUKE	PIJE	PIMO	ABMA	PICO
+Adult Height-Diameter Function	Standard	Standard	Standard	Standard	Standard	Standard	Standard	Standard	Standard	Standard
+Sapling Height-Diameter Function	Standard	Standard	Standard	Standard	Standard	Standard	Standard	Standard	Standard	Standard
+Seedling Height-Diameter Function	Standard	Standard	Standard	Standard	Standard	Standard	Standard	Standard	Standard	Standard
+Adult Crown Radius-Diameter Function	Standard	Standard	Standard	Standard	Standard	Standard	Standard	Standard	Standard	Standard
+Sapling Crown Radius-Diameter Function	Standard	Standard	Standard	Standard	Standard	Standard	Standard	Standard	Standard	Standard
+Adult Crown Depth-Height Function	Standard	Standard	Standard	Standard	Standard	Standard	Standard	Standard	Standard	Standard
+Sapling Crown Depth-Height Function	Standard	Standard	Standard	Standard	Standard	Standard	Standard	Standard	Standard	Standard
+
+Allometry
+
+ 	ABCO	CADE	PILA	PIPO	QUCH	QUKE	PIJE	PIMO	ABMA	PICO
+Slope of DBH to Diameter at 10 cm Relationship	0.75	0.75	0.75	0.75	0.75	0.75	0.75	0.75	0.75	0.75
+Intercept of DBH to Diameter at 10 cm Relationship	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Maximum Tree Height, in meters	64.3	58.2	75.7	68.8	46.9	46.9	58.5216	54.5592	67.056	58.5216
+Slope of Asymptotic Height	0.3551	0.2951	0.4182	0.3427	0.2116	0.3214	0.358	0.418	0.399	0.358
+Slope of Height-Diameter at 10 cm Relationship	0.03	0.03	0.03	0.03	0.03	0.03	0.03	0.03	0.03	0.03
+Slope of Asymptotic Crown Radius	0.07895	0.08597	0.07391	0.07659	0.1327	0.1262	0.072	0.061	0.06	0.072
+Crown Radius Exponent	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+Maximum Crown Radius (Standard) (m)	10.0	10.0	10.0	10.0	10.0	10.0	10.0	10.0	10.0	10.0
+Slope of Asymptotic Crown Height	0.5036	0.4761	0.5041	0.5037	0.4213	0.3937	0.535	0.607	0.513	0.535
+Crown Height Exponent	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+
+General Light
+Applied to ABCO Sapling; ABCO Adult; CADE Sapling; CADE Adult; PILA Sapling; PILA Adult; PIPO Sapling; PIPO Adult; QUCH Sapling; QUCH Adult; QUKE Sapling; QUKE Adult; PIJE Sapling; PIJE Adult; PIMO Sapling; PIMO Adult; ABMA Sapling; ABMA Adult; PI...
+ 	 
+Beam Fraction of Global Radiation	0.5
+Clear Sky Transmission Coefficient	0.65
+First Day of Growing Season	120
+Last Day of Growing Season	270
+Upper Age (Yrs) of Snag Light Transmission Class 1	0
+Upper Age (Yrs) of Snag Light Transmission Class 2	0
+ 	ABCO	CADE	PILA	PIPO	QUCH	QUKE	PIJE	PIMO	ABMA	PICO
+Amount Canopy Light Transmission (0-1)	0.1746	0.1872	0.1913	0.2108	0.2272	0.2449	0.236	0.176	0.146	0.236
+Snag Age Class 1 Amount Canopy Light Transmission (0-1)	null	null	null	null	null	null	null	null	null	null
+Snag Age Class 2 Amount Canopy Light Transmission (0-1)	null	null	null	null	null	null	null	null	null	null
+Snag Age Class 3 Amount Canopy Light Transmission (0-1)	null	null	null	null	null	null	null	null	null	null
+
+Sail Light
+Applied to ABCO Sapling; ABCO Adult; CADE Sapling; CADE Adult; PILA Sapling; PILA Adult; PIPO Sapling; PIPO Adult; QUCH Sapling; QUCH Adult; QUKE Sapling; QUKE Adult; PIJE Sapling; PIJE Adult; PIMO Sapling; PIMO Adult; ABMA Sapling; ABMA Adult; PI...
+ 	 
+Sail Light Minimum Solar Angle, in degrees	45.0
+Sail Light Maximum Shading Neighbor Distance, in meters	5.0
+Calculated Crown Depth	All height
+Height of Fisheye Photo	Mid-crown
+
+Quadrat-based GLI light
+Applied to ABCO Seedling; QUCH Seedling; CADE Seedling; QUKE Seedling; PIJE Seedling; PILA Seedling; PIPO Seedling; PIMO Seedling; ABMA Seedling; PICO Seedling; 
+ 	 
+Number of Azimuth Sky Divisions for Quadrat Light Calculations	18
+Number of Altitude Sky Divisions for Quadrat Light Calculations	12
+Minimum Solar Angle for Quadrat Light, in rad	0.779
+Height at Which GLI is Calculated for Quadrats, in meters	0.675
+Quadrat GLI - Always Calculate All GLIs	false
+
+NCI growth - diam with auto height
+Applied to ABCO Seedling; ABCO Sapling; ABCO Adult; CADE Seedling; CADE Sapling; CADE Adult; PILA Seedling; PILA Sapling; PILA Adult; PIPO Seedling; PIPO Sapling; PIPO Adult; QUCH Seedling; QUCH Sapling; QUCH Adult; QUKE Seedling; QUKE Sapling; QU...
+ 	 
+Growth Increment Adjustment PDF	None
+ 	ABCO	CADE	PILA	PIPO	QUCH	QUKE	PIJE	PIMO	ABMA	PICO
+NCI Maximum Potential Growth, cm/yr	0.182	0.184	0.254	0.254	0.136	0.136	0.254	0.254	0.182	0.254
+Std Deviation for Normal or Lognormal Adjustment	0.158	0.169	0.208	0.208	0.117	0.117	0.208	0.208	0.158	0.208
+
+Stochastic Mortality
+Applied to ABCO Adult; QUCH Adult; CADE Adult; QUKE Adult; PIJE Adult; PILA Adult; PIPO Adult; PIMO Adult; ABMA Adult; ABCO Sapling; CADE Sapling; PILA Sapling; PIPO Sapling; QUCH Sapling; QUKE Sapling; PIJE Sapling; PIMO Sapling; ABMA Sapling; PI...
+ 	ABCO	CADE	PILA	PIPO	QUCH	QUKE	PIJE	PIMO	ABMA	PICO
+Background Mortality Rate	0.00774974	0.010286169	0.02038393	0.036202736	0.020618556	0.0098819	0.0106	0.009442	0.0034	0.0106
+
+Stochastic Mortality
+Applied to ABCO Seedling; QUCH Seedling; CADE Seedling; QUKE Seedling; PIJE Seedling; PILA Seedling; PIPO Seedling; PIMO Seedling; ABMA Seedling; PICO Seedling; 
+ 	ABCO	CADE	PILA	PIPO	QUCH	QUKE	PIJE	PIMO	ABMA	PICO
+Background Mortality Rate	0.21	0.169	0.143	0.143	0.44	0.408	0.143	0.143	0.227	0.143
+
+Dead Tree Remover
+No parameters.
+
+Non-Gap Spatial Disperse
+Applied to ABCO Adult; QUCH Adult; CADE Adult; QUKE Adult; PIJE Adult; PILA Adult; PIPO Adult; PIMO Adult; ABMA Adult; PICO Adult; 
+ 	 
+Seed Distribution	Deterministic
+ 	ABCO	CADE	PILA	PIPO	QUCH	QUKE	PIJE	PIMO	ABMA	PICO
+Seed Dist. Std. Deviation (Normal or Lognormal)	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Seed Dist. Clumping Parameter (Neg. Binomial)	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Minimum DBH for Reproduction, in cm	12.0	5.0	22.0	5.0	16.0	5.0	5.0	15.0	9.0	5.0
+Canopy Function Used	Weibull	Weibull	Weibull	Weibull	Weibull	Weibull	Weibull	Weibull	Weibull	Weibull
+Weibull Canopy Annual STR	0.313	0.147	0.055	0.06	0.035	0.035	0.05	0.055	0.05	0.05
+Weibull Canopy Beta	1.0	1.0	1.0	2.0	2.0	1.0	2.0	0.05	0.05	0.05
+Weibull Canopy Theta	3.0	3.0	3.0	3.0	3.0	3.0	0.05	0.05	0.05	0.05
+Weibull Canopy Dispersal	-0.007	0.0045	0.012	0.012	0.012	0.012	0.05	0.05	0.05	0.05
+Lognormal Canopy Annual STR	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Lognormal Canopy Beta	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+ 	ABCO	CADE	PILA	PIPO	QUCH	QUKE	PIJE	PIMO	ABMA	PICO
+Lognormal Canopy Xb	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Lognormal Canopy X0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+STR for Stumps	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Beta for Stumps	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+
+Seed Establishment
+No parameters.
