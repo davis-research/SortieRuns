@@ -1,1 +1,21 @@
-This is a small project for storing SORTIE-ND XML files. It probably won't be of use to anyone. 
+# SortieRuns
+
+This repository is a collection of SORTIE-ND runs that I've completed, including parameter files, resulting outputs, tree maps, and the documents used to generate the parameters in the XML files (Parameters folder). 
+
+## Outputs Folder
+
+The outputs folder files are zipped by month, and the current / last month of runs is unzipped for easy access. No zips are password protected.
+
+## Data for parameters Folder
+
+This folder is a collection of PDF and CSV files that were used to generate initial parameter estimates. They are drawn from a variety of sources and may or may not be helpful in the future.
+
+## Tree Maps
+
+This folder is the tree maps used in pretty much all of the runs created. Early runs used slightly different maps, but for consistency, these maps are the standard. As a rule, I usually just modify existing files instead of starting from scratch and reimporting all parameters and tree maps. 
+
+Of note, these tree maps have the "real" data starting at 0,0 and going through the normal size of the real plot. So, for example, BBBPIPO is 100x100 -- so the real data end at 100,100, and the rest of the points were generated from the existing distribution at the existing density in R.
+
+## Parameter Files Folder
+
+This is where the parameter files exist. The older parameter files are zipped by month, with the most recent runs being in separate folders. In each folder, there is a list of individual parameter files that represent a run type for each plot. There is also an XML file appended with "-batch" that gives SORTIE-ND instructions on the number of times to run each file.
